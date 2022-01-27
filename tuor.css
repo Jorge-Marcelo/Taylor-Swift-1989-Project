@@ -1,0 +1,166 @@
+html{
+height: 100%;
+margin: 0;
+}
+
+/*Configuração do corpo do site*/
+body
+{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background: rgb(50, 26, 78);
+opacity: 1;
+}
+/*-------------------------------------------------------------------*/
+
+    
+/*Estilização do topo*/
+#menu-area{
+font-family: Letters for Learners;
+font-size: 2.5em;
+text-align: center;
+background-image: linear-gradient(to top, #ffffff, #939597, #ffffff);
+width: 100%;
+line-height: 1.5em;
+margin-top: -50px;
+position: fixed;
+}
+    
+/*Menu Inicio*/
+#menu-area a
+{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+    
+#menu-area a:hover
+{
+border: 3px solid white;
+color: rgb(255, 255, 255);
+cursor: pointer;
+background: rgb(119, 0, 255);
+border-radius: 5px;
+}
+    
+/*Logo Inicio*/
+#logo
+{
+position: relative;
+right: 750px;
+margin-bottom: -70px;
+}
+/*Logo Fim*/
+    
+/*Menu Fim*/
+
+/*Capa Incio*/
+#capa
+{
+width: 100%;
+position: relative;
+top: 70px;
+}
+/*Capa Fim*/
+    
+/*Topo Final*/
+/*-------------------------------------------------------------------*/
+
+/*Texto e Titulo*/
+
+h2
+{
+font-size: 7em;
+text-align: center;
+font-family:Letters for Learners;
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+width: 100%;
+height: 100%;
+}
+
+p
+{
+font-size: 3em;
+text-align: center;
+font-family: Letters for Learners;
+color: rgb(255, 255, 255);
+}
+/*-------------------------------------------------------------------*/
+
+/*Repertorio de Musicas da Turne*/
+#tabela
+{
+font-size: 4em;
+text-align: center;
+font-family: Letters for Learners;
+color: rgb(255, 255, 255);
+text-align: center;
+border: 3px solid white;
+}
+
+
+#linha-tabela
+{
+border-bottom: 3px solid white;
+}
+
+td:hover
+{
+background: rgb(255, 0, 200);
+color: black;
+}
+/*-------------------------------------------------------------------*/
+
+
+/*Configuração das imagens do rodape*/
+#imagem-1
+{
+background: url('tuor-1.png');
+height: 100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+#imagem-2
+{
+background: url('tuor-2.png');
+height: 100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+#imagem-3
+{
+background: url('tuor-3.png');
+height: 100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+#imagem-4
+{
+background: url('tuor-4.png');
+height: 100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+/*rodape*/
+.link-rodape
+{
+text-decoration: none;
+color: rgb(255, 0, 170);
+font-weight: 900;
+}
+
+.link-rodape:hover
+{
+color: blueviolet;
+background: white;
+border-radius: 6px;
+font-weight: 900;
+}
+/*-------------------------------------------------------------------*/

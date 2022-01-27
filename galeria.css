@@ -1,0 +1,369 @@
+html{
+height: 100%;
+margin: 0;
+}
+
+/*Configuração do corpo do site*/
+body
+{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background: rgb(50, 26, 78);
+opacity: 1;
+}
+/*-------------------------------------------------------------------*/
+
+        
+/*Estilização do topo*/
+#menu-area{
+font-family: Letters for Learners;
+font-size: 2.5em;
+text-align: center;
+background-image: linear-gradient(to top, #ffffff, #939597, #ffffff);
+width: 100%;
+line-height: 1.5em;
+margin-top: -50px;
+position: fixed;
+z-index: 1;
+}
+        
+/*Menu Inicio*/
+#menu-area a
+{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+        
+#menu-area a:hover
+{
+border: 3px solid white;
+color: rgb(255, 255, 255);
+cursor: pointer;
+background: rgb(119, 0, 255);
+border-radius: 5px;
+}
+        
+/*Logo Inicio*/
+#logo
+{
+position: relative;
+right: 750px;
+margin-bottom: -70px;
+}
+/*Logo Fim*/
+        
+/*Menu Fim*/
+    
+/*Capa Incio*/
+#capa
+{
+width: 100%;
+overflow: hidden;
+
+}
+
+/*Configuração da animação do topo*/
+#capa ul
+{
+display: flex;
+list-style: none;
+width: 5709px;
+height: 600px;
+position: relative;
+top: 70px;
+right: -20px;
+margin: 0;
+padding: 0;
+}
+
+#capa li
+{
+position: relative;
+animation: slide 15s infinite ease-out;
+}
+
+@keyframes slide
+{
+0% {left: 0px}
+20%{left: 0px}
+
+30% {left: -1903px}
+50% {left: -1903px}
+60% {left: -3806px}
+90% {left: -3806px}
+100% {left: 0px}
+
+}
+
+#mascara
+{
+background: url('mascara.png');
+position: absolute;
+top: 71px;
+left: 20;
+}
+/*Capa Fim*/
+
+        
+/*Topo Final*/
+/*-------------------------------------------------------------------*/
+
+/*Configuração das imagens do Paralax*/
+
+#imagem-1
+{
+background: url('galeria-1.png');
+height: 100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+#imagem-2
+{
+background: url('galeria-2.png');
+height: 100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+#imagem-3
+{
+background: url('.png');
+height: 100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+/*--------------------------------------------------------------------*/
+
+    
+/*Texto e Titulo*/
+    
+h2
+{
+font-size: 7em;
+text-align: center;
+font-family:Letters for Learners;
+color: rgb(86, 151, 248);
+display: flex;
+justify-content: center;
+width: 100%;
+height: 100%;
+text-decoration: underline;
+}
+
+p
+{
+font-size: 3em;
+text-align: center;
+font-family: Letters for Learners;
+color: rgb(255, 255, 255);
+}
+
+/*-------------------------------------------------------------------*/
+
+/*Lista de  musicas*/
+#tabela
+{
+font-size: 4em;
+font-family:Letters for Learners;
+color: rgb(0, 0, 0);
+text-align: center;
+border: 3px solid rgb(0, 0, 0);
+float: left;
+position: relative;
+left: 270px;
+background: rgb(238, 119, 247);
+
+}
+
+#titulo-tabela
+{
+border-bottom: 3px solid rgb(0, 0, 0);
+background: rgb(238, 0, 255);
+color: rgb(255, 255, 255);
+font-weight: 900;
+}
+
+#tabela2
+{
+font-size: 4em;
+font-family:Letters for Learners;
+color: rgb(0, 0, 0);
+text-align: center;
+border: 3px solid rgb(0, 0, 0);
+float: left;
+position: relative;
+left: 350px;
+background: rgb(236, 170, 241);
+}
+
+
+#linha-tabela
+{
+border-bottom: 3px solid rgb(0, 0, 0);
+}
+    
+
+/*-------------------------------------------------------------------*/
+
+/*DOWNLOAD*/
+.download
+{
+font-size:0.8em;
+color: rgb(0, 0, 0);
+text-decoration: none;
+border: 3px solid rgb(234, 0, 255);
+border-radius: 5px;
+background: rgb(255, 255, 255);
+display: inline;
+font-weight: 900;
+position: relative;
+top: 5px;
+}
+
+.download:hover
+{
+background: rgb(132, 0, 255);
+color: white;
+}
+/*-------------------------------------------------------------------*/
+
+/*Configuração do notão de audio*/
+
+.audio
+{
+position: relative;
+top: 5px;
+}
+
+/*-------------------------------------------------------------------*/
+
+
+
+
+/*Slide de iagens*/
+
+/*Configurações gerais do slider de imagens*/
+.content{
+width: 100%;
+position: absolute;
+text-align: center;
+display: inline;
+overflow: hidden;
+}
+/*-----------------------------------------------------------*/
+    
+    
+/*Configurações da barra de navegação*/
+.navegação{
+margin-left: 750px;
+margin-top: 700px;
+transform: translate(-50%);
+display: flex;
+}
+/*-----------------------------------------------------------*/
+    
+    
+ /*Esconde  a barra de input*/
+input{
+display: none;
+}
+/*-----------------------------------------------------------*/
+    
+    
+/*Estilização das miniaturas da barra de navegação*/
+.miniatura{
+width: 150px;
+height: 150px;
+border: 2px solid white;
+margin: 6px;
+border-radius: 5px;
+cursor: pointer;
+transition: .5s;
+}
+/*-----------------------------------------------------------*/
+
+
+    
+     
+/*Estilizzação dos slides*/   
+.slides{
+display: flex;
+width: 1000%;
+height: 100%;
+}
+/*-----------------------------------------------------------*/
+    
+    
+/*Configuração da trancisão*/
+.slide{
+width: 10%;
+transition: .6s;
+}
+ /*-----------------------------------------------------------*/
+    
+    
+/*Chamada para as imagens*/    
+#slide1:checked ~ .s1{
+margin-left: 0%;
+}
+        
+#slide2:checked ~ .s1{
+margin-left: -10%;
+}
+        
+#slide3:checked ~ .s1{
+margin-left: -20%;
+}
+        
+#slide4:checked ~ .s1{
+margin-left: -30%;
+}
+        
+#slide5:checked ~ .s1{
+margin-left: -40%;
+}
+
+#slide6:checked ~ .s1{
+margin-left: -50%;
+}
+
+#slide7:checked ~ .s1{
+margin-left: -60%;
+}
+
+#slide8:checked ~ .s1{
+margin-left: -70%;
+}
+
+#slide9:checked ~ .s1{
+margin-left: -80%;
+}
+
+#slide10:checked ~ .s1{
+margin-left: -90%;
+}
+
+/*rodape*/
+.link-rodape
+{
+text-decoration: none;
+color: rgb(255, 0, 170);
+font-weight: 900;
+
+}
+
+.link-rodape:hover
+{
+color: blueviolet;
+background: white;
+border-radius: 6px;
+font-weight: 900;
+}
+
+
+/*-------------------------------------------------------------------*/
+
